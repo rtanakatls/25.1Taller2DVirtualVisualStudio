@@ -77,7 +77,7 @@ namespace Taller2DVirtual251
             Console.WriteLine($"En {days} días, hay {days / 365} años");
             Console.WriteLine($"En {days} días, hay {days / 7} semanas");
             */
-
+            /*
             int year;
 
             Console.WriteLine("Introduce el año");
@@ -105,9 +105,46 @@ namespace Taller2DVirtual251
             {
                 Console.WriteLine($"El año {year} no es bisiesto");
             }
+            */
+            /*
+            int a;
 
+            Console.WriteLine("Introduce un número");
+            a=int.Parse(Console.ReadLine());
 
-            
+            if (a > 0)
+            {
+                Console.WriteLine($"{a} es positivo");
+            }
+            else if (a < 0)
+            {
+                Console.WriteLine($"{a} es negativo");
+            }
+            else
+            {
+                Console.WriteLine($"{a} es cero");
+            }
+            */
+            int a;
+            Console.WriteLine("Introduce un número");
+            a=int.Parse(Console.ReadLine());
+
+            if (a % 7 == 0 && a % 13 == 0)
+            {
+                Console.WriteLine($"{a} es divisible entre 7 y 13");
+            }
+            else if (a % 7 == 0)
+            {
+                Console.WriteLine($"{a} es divisible entre 7");
+            }
+            else if (a % 13 == 0)
+            {
+                Console.WriteLine($"{a} es divisible entre 13");
+            }
+            else
+            {
+                Console.WriteLine($"{a} no es divisible entre 13 ni 7");
+            }
         }
     }
 }
