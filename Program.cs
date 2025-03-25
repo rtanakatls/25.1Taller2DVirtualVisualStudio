@@ -30,7 +30,7 @@ namespace Taller2DVirtual251
                 else
                 {
                     continueFlag = false;
-                    Console.WriteLine($"Entonces el próximo año tendrás {age + 1}");
+                    Console.WriteLine($"Ahora tienes {age} años y entonces el próximo año tendrás {age + 1}");
 
                     if (age >= 18)
                     {
