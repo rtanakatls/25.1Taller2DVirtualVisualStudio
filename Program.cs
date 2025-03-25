@@ -45,6 +45,7 @@ namespace Taller2DVirtual251
             }
             */
 
+            /*
             float a;
             float b;
 
@@ -65,6 +66,44 @@ namespace Taller2DVirtual251
             {
                 Console.WriteLine($"{a}/{b}={a / b}");
                 Console.WriteLine($"{a}%{b}={a % b}");
+            }
+            */
+            /*
+            float days;
+
+            Console.WriteLine("Introduce la cantidad de días");
+            days=float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"En {days} días, hay {days / 365} años");
+            Console.WriteLine($"En {days} días, hay {days / 7} semanas");
+            */
+
+            int year;
+
+            Console.WriteLine("Introduce el año");
+            year = int.Parse(Console.ReadLine());
+
+            if (year % 4 == 0)
+            {
+                if (year % 100 == 0)
+                {
+                    if (year % 400 == 0)
+                    {
+                        Console.WriteLine($"El año {year} es bisiesto");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"El año {year} no es bisiesto");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"El año {year} es bisiesto");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"El año {year} no es bisiesto");
             }
 
 
