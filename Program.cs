@@ -10,6 +10,7 @@ namespace Taller2DVirtual251
     {
         static void Main(string[] args)
         {
+            /*
             string name;
             int age;
             bool continueFlag = true;
@@ -42,6 +43,31 @@ namespace Taller2DVirtual251
                     }
                 }
             }
+            */
+
+            float a;
+            float b;
+
+            Console.WriteLine("Introduce el primer número");
+            a=float.Parse(Console.ReadLine());
+            Console.WriteLine("Introduce el segundo número");
+            b=float.Parse(Console.ReadLine());
+
+            Console.WriteLine($"{a}+{b}={a + b}");
+            Console.WriteLine($"{a}-{b}={a - b}");
+            Console.WriteLine($"{a}*{b}={a * b}");
+
+            if(b==0)
+            {
+                Console.WriteLine("No puedes dividir entre 0");
+            }
+            else
+            {
+                Console.WriteLine($"{a}/{b}={a / b}");
+                Console.WriteLine($"{a}%{b}={a % b}");
+            }
+
+
             
         }
     }
