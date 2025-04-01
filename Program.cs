@@ -10,6 +10,9 @@ namespace Taller2DVirtual251
     {
         static void Main(string[] args)
         {
+            Menu menu = new Menu();
+            menu.Execute();
+
             /*
             string name;
             int age;
@@ -125,6 +128,7 @@ namespace Taller2DVirtual251
                 Console.WriteLine($"{a} es cero");
             }
             */
+            /*
             int a;
             Console.WriteLine("Introduce un número");
             a=int.Parse(Console.ReadLine());
@@ -145,6 +149,7 @@ namespace Taller2DVirtual251
             {
                 Console.WriteLine($"{a} no es divisible entre 13 ni 7");
             }
+            */
         }
     }
 }
