@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classroom\Classroom.cs" />
+    <Compile Include="Classroom\Student.cs" />
     <Compile Include="Figures\Circle.cs" />
     <Compile Include="Figures\FigureMenu.cs" />
     <Compile Include="Figures\Rectangle.cs" />
