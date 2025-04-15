@@ -13,6 +13,7 @@ namespace Taller2DVirtual251
         {
             int a;
             int c;
+            int b;
             int value;
             int value2;
             int value3;
