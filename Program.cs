@@ -17,6 +17,7 @@ namespace Taller2DVirtual251
 
             value = int.Parse(Console.ReadLine());
             Console.WriteLine($"Introdujo el número {value}");
+            Console.WriteLine("Hola mundo");
             /*
             FigureMenu menu = new FigureMenu();
             menu.Execute();
