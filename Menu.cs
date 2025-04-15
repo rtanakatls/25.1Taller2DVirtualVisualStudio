@@ -8,8 +8,6 @@ namespace Taller2DVirtual251
 {
     internal class Menu
     {
-        private int value;
-
         private Player player;
 
         public void Execute()

@@ -11,9 +11,14 @@ namespace Taller2DVirtual251
     {
         static void Main(string[] args)
         {
+            int value;
+
+            value = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Introdujo el número {value}");
+            /*
             FigureMenu menu = new FigureMenu();
             menu.Execute();
-
+            */
             /*
             string name;
             int age;
