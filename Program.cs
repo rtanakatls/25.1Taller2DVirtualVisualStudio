@@ -12,6 +12,7 @@ namespace Taller2DVirtual251
         static void Main(string[] args)
         {
             int value;
+            int value2;
 
             value = int.Parse(Console.ReadLine());
             Console.WriteLine($"Introdujo el número {value}");
