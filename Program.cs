@@ -12,6 +12,7 @@ namespace Taller2DVirtual251
         static void Main(string[] args)
         {
             int a;
+            int b;
             int value;
             int value2;
             int value3;
